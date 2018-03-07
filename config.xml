@@ -83,9 +83,9 @@
         <splash height="1024" src="resources/ios/splash/Default-Portrait~ipad.png" width="768" />
         <splash height="960" src="resources/ios/splash/Default@2x~iphone.png" width="640" />
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
+        <icon height="1024" src="resources/ios/icon/icon-1024.png" width="1024" />
+        <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
-    <engine name="android" spec="6.1.2" />
-    <engine name="ios" spec="4.3.1" />
     <plugin name="cordova-plugin-file" spec="4.3.3" />
     <plugin name="cordova-plugin-file-transfer" spec="1.6.3" />
     <plugin name="cordova-plugin-camera" spec="2.4.1">
@@ -118,4 +118,7 @@
     <plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" />
     <plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" />
     <plugin name="cordova-sqlite-storage" spec="2.0.4" />
+    <engine name="android" spec="6.1.2" />
+    <engine name="ios" spec="4.3.1" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
 </widget>
