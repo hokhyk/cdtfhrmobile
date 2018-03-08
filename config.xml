@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.moodle.moodlemobile" version="3.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle Mobile</name>
-    <description>Moodle Mobile official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+<widget id="com.cdtfhr.t" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CDTFHR Mobile</name>
+    <description>CDTFHR Mobile official app</description>
+    <author email="admin@cdtfhr.com" href="http://cdtfhr.com">CDTFHR Mobile team</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -17,7 +17,7 @@
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
-    <preference name="AppendUserAgent" value="MoodleMobile" />
+    <preference name="AppendUserAgent" value="CDTFHRMobile" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="19" />
     <preference name="UIWebViewBounce" value="false" />
@@ -118,7 +118,7 @@
     <plugin name="net.tunts.webintent" spec="https://github.com/Tunts/WebIntent.git" />
     <plugin name="ch.ti8m.documenthandler" spec="https://github.com/ti8m/DocumentHandler.git" />
     <plugin name="cordova-sqlite-storage" spec="2.0.4" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
     <engine name="android" spec="6.1.2" />
     <engine name="ios" spec="4.3.1" />
-    <preference name="SplashShowOnlyFirstTime" value="false" />
 </widget>
