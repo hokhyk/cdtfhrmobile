@@ -1,14 +1,14 @@
 {
-  "name": "moodlemobile",
-  "version": "3.5.0",
-  "description": "The official app for Moodle.",
+  "name": "CDTFHRmobile",
+  "version": "1.0.0",
+  "description": "The official app for CDTFHR mobile.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "CDTFHR Ltd.",
+    "email": "admin@cdtfhr.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    "url": "https://github.com/hokhyk/cdtfhrmobile.git"
   },
   "license": "Apache-2.0",
   "licenses": [
