@@ -46,7 +46,7 @@ $yellow:          #fbad1a; // Accent (never text).
 $yellow-light:    mix($yellow, white, 20%);
 $yellow-dark:     mix($yellow, black, 40%);
 
-$core-color:          $orange;
+$core-color:          $blue;
 $core-color-light:    lighten($core-color, 10%);
 $core-color-dark:     darken($core-color, 10%);
 
@@ -58,7 +58,7 @@ $core-color-dark:     darken($core-color, 10%);
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
 
-$toolbar-background: $orange;
+$toolbar-background: $blue;
 $content-padding: 10px;
 
 
